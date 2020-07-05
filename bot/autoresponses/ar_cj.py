@@ -990,7 +990,7 @@ msgs = [
 	"Take your time and let me love you good..."
 ]
 
-def auto_cj(bot, update):
+def auto_cj(_bot, update):
     """CJ responds with a pleasant message."""
     if update.message.text.lower().startswith('cj'):
         update.message.reply_text(random.choice(msgs)) # randomly picks one of the messages in the msgs list and outputs it.

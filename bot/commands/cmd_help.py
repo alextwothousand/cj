@@ -1,2 +1,2 @@
-def cmd_help(bot, update):
+def cmd_help(_bot, update):
     return update.message.reply_text('fuck off')

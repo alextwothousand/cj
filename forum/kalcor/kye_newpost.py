@@ -5,7 +5,7 @@ import _thread
 
 previous_count = kalcor_scrape()
 
-def kalcor_newpost_thread(bot, job):
+def kalcor_newpost_thread(bot, _job):
     while True:
         global previous_count
 

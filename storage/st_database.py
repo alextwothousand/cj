@@ -22,7 +22,7 @@ async def create_conn_thread():
 
     await cur.execute(f"CREATE TABLE IF NOT EXISTS {table_chatlogs} (`id` INTEGER PRIMARY KEY AUTOINCREMENT, `timestamp` TEXT, `user` TEXT, `message` TEXT);")
 
-def logging_chat(bot, update):
+def logging_chat(_bot, update):
     if update.message.from_user.is_bot is True: return
 
     global conn
