@@ -58,7 +58,7 @@ words2 = [
 	"world",
 ]
 
-def auto_mpname(bot, update):
+def auto_mpname(_bot, update):
     if update.message.text.lower() == 'mpname'.lower():
         first = random.choice(words1).capitalize() # capitalizes the first letter of the randomly selected word
         second = random.choice(words2).capitalize() # also capitalizes the first letter of the randomly selected word

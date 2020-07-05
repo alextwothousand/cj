@@ -132,7 +132,7 @@ tags = [
 	"ZOMBIES",
 ]
 
-def auto_gmname(bot, update):
+def auto_gmname(_bot, update):
     if update.message.text.lower() == 'gmname'.lower():
         tag = []
         num = random.randint(1, 4)

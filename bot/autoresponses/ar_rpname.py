@@ -60,7 +60,7 @@ words2 = [
 	"world",
 ]
 
-def auto_rpname(bot, update):
+def auto_rpname(_bot, update):
     if update.message.text.lower() == 'rpname'.lower():
         first = random.choice(words1).capitalize()
         second = random.choice(words2).capitalize()

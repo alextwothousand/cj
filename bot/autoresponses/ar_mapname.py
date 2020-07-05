@@ -65,7 +65,7 @@ mapname_styles = [
     "[MAP]"
 ]
 
-def auto_mapname(bot, update):
+def auto_mapname(_bot, update):
     if update.message.text.lower() == 'mapname'.lower():
         if random.randint(0, 1) == 0: first = random.choice(words1).capitalize()
         else: first = random.choice(words1)

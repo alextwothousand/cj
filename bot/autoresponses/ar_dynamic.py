@@ -142,7 +142,7 @@ system_styles = [
     "SYSTEM",
 ]
 
-def auto_dynamic(bot, update):
+def auto_dynamic(_bot, update):
     if update.message.text.lower() == 'dynamic'.lower():
         tag = []
         num = random.randint(2, 6)

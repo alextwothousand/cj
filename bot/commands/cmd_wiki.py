@@ -16,7 +16,7 @@ url = "https://wiki.sa-mp.com/wiki/"
 def cmd_wiki(bot, update, args):
     _thread.start_new_thread(cmd_wiki_thread(bot, update, args))
 
-def cmd_wiki_thread(bot, update, args):
+def cmd_wiki_thread(_bot, update, args):
     try:
         pass
     except:
