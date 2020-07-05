@@ -139,7 +139,7 @@ def auto_gmname(bot, update):
 
         gamemode = random.choice(words1) + " " + random.choice(words2) + " " + random.choice(gm) + " "
 
-        for i in range(1, num):
+        for _ in range(1, num):
             rand_tag = random.choice(tags)
 
             while rand_tag in tag:
