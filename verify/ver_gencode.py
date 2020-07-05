@@ -6,7 +6,7 @@ specialChars = ['=', '+', '?', '-', '_', '^', '&']
 def generateCode(length = 12):
     code = ''
 
-    for i in range(0, (length - 2)):
+    for _ in range(0, (length - 2)):
         if random.randint(0, 1) == 0:
             code += random.choice(string.ascii_letters)
         else:

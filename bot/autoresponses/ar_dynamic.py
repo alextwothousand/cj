@@ -149,7 +149,7 @@ def auto_dynamic(bot, update):
 
         dynamic = random.choice(dynamic_styles) + " " + random.choice(words1) + " "
 
-        for i in range(2, num):
+        for _ in range(2, num):
             rand_tag = random.choice(tags)
 
             while rand_tag in tag:

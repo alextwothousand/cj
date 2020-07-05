@@ -18,7 +18,7 @@ def cmd_wiki(bot, update, args):
 
 def cmd_wiki_thread(bot, update, args):
     try:
-        arg_check = args[0]
+        pass
     except:
         return update.message.reply_text('You must specify what you would like to search in the wiki!')
         
